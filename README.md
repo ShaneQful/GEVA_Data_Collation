@@ -17,6 +17,12 @@ ruby collate_results.rb -sd *.dat
 
 To get the standard deviation of each cell in the file in csv format
 
+
+For those of you who don't use the command line much here is how to put the output into a file
+```bash
+ruby collate_results.rb -m *.dat > mean.csv
+```
+
 ##### Warning: Don't use with miss matched output data ie. runs with different amounts of generations
 
 ### License:
